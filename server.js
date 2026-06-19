@@ -24,7 +24,7 @@ app.post("/notify-driver", async function (req, res) {
   }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, function () {
   console.log("TownRide server running on port " + PORT);
 });
